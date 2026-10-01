@@ -1,0 +1,24 @@
+SYN_ERR line=9 col=10 : expected constant, identifier or '('
+SYN_ERR line=10 col=1 : expected ',' or ';' in declaration
+SEM_ERR line=10 col=5 : redefinition of 'z1'
+SYN_ERR line=11 col=1 : expected ',' or ';' in declaration
+SYN_ERR line=11 col=8 : expected ',' or ';' in declaration
+SYN_ERR line=16 col=7 : expected identifier in declaration
+SYN_ERR line=17 col=5 : expected identifier in declaration
+SYN_ERR line=20 col=1 : identifier 'PI' used before declaration
+SYN_ERR line=21 col=1 : identifier '_PI' used before declaration
+SYN_ERR line=22 col=1 : identifier 'Pi' used before declaration
+SYN_ERR line=23 col=1 : identifier '_Pi' used before declaration
+SEM_ERR line=25 col=5 : identifier with constant-style name must be declared as const
+SEM_ERR line=26 col=5 : identifier with constant-style name must be declared as const
+SEM_ERR line=30 col=11 : redefinition of 'PI'
+SEM_ERR line=31 col=11 : redefinition of '_PI'
+SEM_ERR line=32 col=11 : 'Pi' is not a valid constant name
+SEM_ERR line=32 col=11 : redefinition of 'Pi'
+SEM_ERR line=33 col=11 : '_Pi' is not a valid constant name
+SEM_ERR line=33 col=11 : redefinition of '_Pi'
+SEM_ERR line=36 col=1 : cannot assign to named constant 'MAX_VALUE'
+SYN_ERR line=42 col=5 : expected identifier in declaration
+SYN_ERR line=42 col=9 : expected identifier in declaration
+SEM_ERR line=46 col=5 : redefinition of 'u1'
+SEM_ERR line=50 col=1 : line break after 'int' is not allowed
